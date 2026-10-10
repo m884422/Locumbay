@@ -1,0 +1,713 @@
+{
+  "Allied Pharmacy - Podsmead": {
+    "address": "15a Scott Avenue, Podsmead, Gloucester, GL25BD",
+    "postcode": "GL25BD",
+    "lat": "51.8396810",
+    "lon": "-2.2584070"
+  },
+  "Tuffley Pharmacy": {
+    "address": "16 Seventh Avenue, Tuffley, Gloucestershire, Gloucester, GL40EB",
+    "postcode": "GL40EB",
+    "lat": "51.8318350",
+    "lon": "-2.2497160"
+  },
+  "Allied Pharmacy - Holmleigh Parade": {
+    "address": "19 Holmleigh Parade, Tuffley, Gloucester, GL40QU",
+    "postcode": "GL40QU",
+    "lat": "51.8309660",
+    "lon": "-2.2596190"
+  },
+  "Allied Pharmacy - Derby Road": {
+    "address": "334 Derby Road, Lenton, Nottingham, NG72DW",
+    "postcode": "NG72DW",
+    "lat": "52.9507250",
+    "lon": "-1.1770270"
+  },
+  "Cainscross Pharmacy": {
+    "address": "16 Cashes Green Road, Stroud, GL54JG",
+    "postcode": "GL54JG",
+    "lat": "51.7439590",
+    "lon": "-2.2425210"
+  },
+  "Allied Pharmacy - Eynsham": {
+    "address": "64 Acre End Street, Eynsham, Oxfordshire, West Oxfordshire, OX294PD",
+    "postcode": "OX294PD",
+    "lat": "51.7807370",
+    "lon": "-1.3779530"
+  },
+  "Blackthorn Pharmacy": {
+    "address": "Blackthorn Pharmacy, Blackthorn Bridge Court, Northampton, West Northamptonshire, NN38DG",
+    "postcode": "NN38DG",
+    "lat": "52.2653860",
+    "lon": "-0.8181620"
+  },
+  "Allied Pharmacy - Cowley": {
+    "address": "17 Ivy Close, Cowley, Oxford, OX42NB",
+    "postcode": "OX42NB",
+    "lat": "51.7362470",
+    "lon": "-1.2074220"
+  },
+  "Allied Pharmacy - Sussex Close": {
+    "address": "Unit 4 Sussex Place, Somerville Road, Swindon, SN33FS",
+    "postcode": "SN33FS",
+    "lat": "51.5599980",
+    "lon": "-1.7632240"
+  },
+  "Allied Pharmacy - Park South": {
+    "address": "Unit 1 Royston Road, Park South, Swindon, SN32GD",
+    "postcode": "SN32GD",
+    "lat": "51.5537310",
+    "lon": "-1.7504310"
+  },
+  "Allied Pharmacy - Gleadless Road": {
+    "address": "266 Gleadless Road, Sheffield, S23AH",
+    "postcode": "S23AH",
+    "lat": "53.3593620",
+    "lon": "-1.4645410"
+  },
+  "Reynolds Way Pharmacy": {
+    "address": "7 Reynolds Way, Abingdon, Oxfordshire, Vale of White Horse, OX145JT",
+    "postcode": "OX145JT",
+    "lat": "51.6630760",
+    "lon": "-1.2888840"
+  },
+  "Allied Pharmacy - Mably Way": {
+    "address": "Mably Way, Grove Wantage, Oxford, Oxfordshire, Vale of White Horse, OX129BN",
+    "postcode": "OX129BN",
+    "lat": "51.5987630",
+    "lon": "-1.4258470"
+  },
+  "Allied Pharmacy - Ellesmere Road": {
+    "address": "36-38 Ellesmere Road, Burngreave, Sheffield, S47JD",
+    "postcode": "S47JD",
+    "lat": "53.3936550",
+    "lon": "-1.4567580"
+  },
+  "Allied Pharmacy - Handsworth Road": {
+    "address": "292 - 294 Handsworth Road, Sheffield, South Yorkshire, Sheffield, S139BX",
+    "postcode": "S139BX",
+    "lat": "53.3726750",
+    "lon": "-1.3897940"
+  },
+  "Burngreave Road Pharmacy": {
+    "address": "149 Burngreave Road, Sheffield, S39DL",
+    "postcode": "S39DL",
+    "lat": "53.3992390",
+    "lon": "-1.4653200"
+  },
+  "Allied Pharmacy - Aston": {
+    "address": "82 Worksop Road, Swallownest, Sheffield, Rotherham, S264WD",
+    "postcode": "S264WD",
+    "lat": "53.3629970",
+    "lon": "-1.3170970"
+  },
+  "Fir Vale Pharmacy": {
+    "address": "1 Hinde House Lane, Sheffield, S48GX",
+    "postcode": "S48GX",
+    "lat": "53.4084990",
+    "lon": "-1.4478740"
+  },
+  "Allied Pharmacy - Firth Park Road": {
+    "address": "428-430 Firth Park Road, Sheffield, South Yorkshire, Sheffield, S56HH",
+    "postcode": "S56HH",
+    "lat": "53.4175690",
+    "lon": "-1.4459210"
+  },
+  "Seven Hills Pharmacy": {
+    "address": "78 Wincobank Avenue, Sheffield, South Yorkshire, Sheffield, S56AZ",
+    "postcode": "S56AZ",
+    "lat": "53.4180530",
+    "lon": "-1.4380610"
+  },
+  "Allied Pharmacy - Margetson Crescent": {
+    "address": "41 Margetson Crescent, Parson Cross, Sheffield, S59ND",
+    "postcode": "S59ND",
+    "lat": "53.4316600",
+    "lon": "-1.4772250"
+  },
+  "Allied Pharmacy - Tyler Street": {
+    "address": "205 Tyler Street, Sheffield, South Yorkshire, Sheffield, S91DJ",
+    "postcode": "S91DJ",
+    "lat": "53.4194050",
+    "lon": "-1.4163160"
+  },
+  "Allied Pharmacy - Stocksbridge": {
+    "address": "9 Johnson Road, Sheffield, (Valley Medical Centre), Sheffield, S361BX",
+    "postcode": "S361BX",
+    "lat": "53.4823340",
+    "lon": "-1.5949110"
+  },
+  "Celtic Point Pharmacy": {
+    "address": "Unit 6, Celtic Point, Raymoth Lane, Worksop, Bassetlaw, S817AZ",
+    "postcode": "S817AZ",
+    "lat": "53.3260280",
+    "lon": "-1.1333290"
+  },
+  "Allied Pharmacy - Cholsey": {
+    "address": "1 The Pound, Cholsey, Oxford, South Oxfordshire, OX109NS",
+    "postcode": "OX109NS",
+    "lat": "51.5749950",
+    "lon": "-1.1529360"
+  },
+  "Allied Pharmacy - Newtown": {
+    "address": "27 Park Street, Newtown, Powys, SY161EF",
+    "postcode": "SY161EF",
+    "lat": "52.5121830",
+    "lon": "-3.3165750"
+  },
+  "Allied Pharmacy - Church Street Rotherham": {
+    "address": "2 Church Street, Rotherham, S637QY",
+    "postcode": "S637QY",
+    "lat": "53.5024920",
+    "lon": "-1.3459470"
+  },
+  "Allied Pharmacy - Merthyr Road": {
+    "address": "Merthyr Road, Llanfoist, Abergavenny, Monmouthshire, NP79LL",
+    "postcode": "NP79LL",
+    "lat": "51.8182940",
+    "lon": "-3.0282450"
+  },
+  "Allied Pharmacy - Buckley": {
+    "address": "Buckley Medical Centre, Alltami Rd, Buckley, Flintshire, CH73PG",
+    "postcode": "CH73PG",
+    "lat": "53.1746590",
+    "lon": "-3.0848030"
+  },
+  "Allied Pharmacy - Weston": {
+    "address": "125 High Street, Weston, Bath, Avon, BA14DF",
+    "postcode": "BA14DF",
+    "lat": "51.3966700",
+    "lon": "-2.3912300"
+  },
+  "Chain Lane Pharmacy": {
+    "address": "Unit 9, The Shopping Centre, Chain Lane, St Helens, St. Helens, WA119HB",
+    "postcode": "WA119HB",
+    "lat": "53.4673400",
+    "lon": "-2.7112370"
+  },
+  "Borsdane Avenue Pharmacy": {
+    "address": "Unit 3, 19 Borsdane Avenue, Wigan, WN23QN",
+    "postcode": "WN23QN",
+    "lat": "53.5341800",
+    "lon": "-2.5645750"
+  },
+  "Allied Pharmacy - Old Swan": {
+    "address": "23-25 St Oswalds Street, Liverpool, L135SA",
+    "postcode": "L135SA",
+    "lat": "53.4130870",
+    "lon": "-2.9139020"
+  },
+  "Allied Pharmacy - Green Lane": {
+    "address": "17 Green Lane, Tuebrook, Liverpool, L137DT",
+    "postcode": "L137DT",
+    "lat": "53.4238560",
+    "lon": "-2.9280540"
+  },
+  "Allied Pharmacy - Ebbw Vale": {
+    "address": "Unit 3-4, Market Street, Ebbw Vale, Gwent, Blaenau Gwent, NP236HP",
+    "postcode": "NP236HP",
+    "lat": "51.7805870",
+    "lon": "-3.2075740"
+  },
+  "Allied Pharmacy - Balls Road": {
+    "address": "40 Balls Road, Birkenhead, Prenton, Wirral, CH435RE",
+    "postcode": "CH435RE",
+    "lat": "53.3852280",
+    "lon": "-3.0373900"
+  },
+  "Allied Pharmacy - Queensway": {
+    "address": "22-24 Queensway, Gainsborough, Lincolnshire, West Lindsey, DN211SN",
+    "postcode": "DN211SN",
+    "lat": "53.3988280",
+    "lon": "-0.7601800"
+  },
+  "Allied Pharmacy - Frome": {
+    "address": "96 Forest Road, Frome, Somerset, BA112TU",
+    "postcode": "BA112TU",
+    "lat": "51.2405700",
+    "lon": "-2.3057460"
+  },
+  "Allied Pharmacy - Yaxley": {
+    "address": "Yaxley Group Practice, Lansdowne Road, Peterborough, PE73JL",
+    "postcode": "PE73JL",
+    "lat": "52.5168840",
+    "lon": "-0.2510830"
+  },
+  "Allied Pharmacy - Durrington": {
+    "address": "67 Bulford Road, Durrington, Salisbury, Wiltshire, SP48DL",
+    "postcode": "SP48DL",
+    "lat": "51.1960380",
+    "lon": "-1.7705560"
+  },
+  "St Mellons Pharmacy": {
+    "address": "347-349 St Mellons Shopping Centre, St Mellons, Cardiff, CF30EF",
+    "postcode": "CF30EF",
+    "lat": "51.5254070",
+    "lon": "-3.1017360"
+  },
+  "Allied Pharmacy - Ystrad Mynach": {
+    "address": "12 Bedwlwyn Road, Ystrad Mynach, Hengoed, Caerphilly, CF827AD",
+    "postcode": "CF827AD",
+    "lat": "51.6416680",
+    "lon": "-3.2358330"
+  },
+  "Allied Pharmacy - Llanrumney": {
+    "address": "New Medical Centre, Ball Road, Llanrumney, Cardiff, CF35NP",
+    "postcode": "CF35NP",
+    "lat": "51.5260260",
+    "lon": "-3.1255140"
+  },
+  "Allied Pharmacy - Courthouse": {
+    "address": "Courthouse Medical Centre, Heol Browen, Caerphilly, CF833GH",
+    "postcode": "CF833GH",
+    "lat": "51.5843850",
+    "lon": "-3.2181570"
+  },
+  "Allied Pharmacy - Caerphilly": {
+    "address": "31 Tonyfelin Road, Caerphilly, CF831PA",
+    "postcode": "CF831PA",
+    "lat": "51.5783630",
+    "lon": "-3.2169030"
+  },
+  "Allied Pharmacy - Chapel Lane": {
+    "address": "15 Chapel Lane, Formby, Liverpool, Sefton, L374DL",
+    "postcode": "L374DL",
+    "lat": "53.5570750",
+    "lon": "-3.0614280"
+  },
+  "Allied Pharmacy - Rhiwbina": {
+    "address": "4c Heol-Y-Deri, Rhiwbina, Cardiff, CF146HF",
+    "postcode": "CF146HF",
+    "lat": "51.5227000",
+    "lon": "-3.2119730"
+  },
+  "Allied Pharmacy - Millstream": {
+    "address": "Millstream Medical Centre, Avon Approach, Salisbury, Wiltshire, SP13SL",
+    "postcode": "SP13SL",
+    "lat": "51.0717310",
+    "lon": "-1.7975090"
+  },
+  "Allied Pharmacy - Mountain Ash": {
+    "address": "18b/19b Oxford Street, Mountain Ash, Rhondda Cynon Taf, CF453PL",
+    "postcode": "CF453PL",
+    "lat": "51.6829610",
+    "lon": "-3.3794690"
+  },
+  "Allied Pharmacy - Ynysybwl": {
+    "address": "16 Windsor Place, Ynysybwl, Pontypridd, Mid Glamorgan, Rhondda Cynon Taf, CF373HR",
+    "postcode": "CF373HR",
+    "lat": "51.6383430",
+    "lon": "-3.3590560"
+  },
+  "Allied Pharmacy - Canton": {
+    "address": "Lansdowne Health Centre, Sanitorium Road, Canton, Cardiff, CF118DG",
+    "postcode": "CF118DG",
+    "lat": "51.4802690",
+    "lon": "-3.2179270"
+  },
+  "Allied Pharmacy - Goole": {
+    "address": "Goole and District Hospital, Woodland Avenue, Goole, East Riding of Yorkshire, DN146RU",
+    "postcode": "DN146RU",
+    "lat": "53.7148390",
+    "lon": "-0.8754790"
+  },
+  "Allied Pharmacy - Hannah Street": {
+    "address": "70-71 Hannah Street, Porth, Rhondda Cynon Taf, CF399PU",
+    "postcode": "CF399PU",
+    "lat": "51.6118150",
+    "lon": "-3.4074650"
+  },
+  "Allied Pharmacy - Aberrhondda Road": {
+    "address": "Pontnewydd Medical Centre, Aberrhondda Road, Porth, Rhondda Cynon Taf, CF390LD",
+    "postcode": "CF390LD",
+    "lat": "51.6148560",
+    "lon": "-3.4110400"
+  },
+  "Allied Pharmacy - High Street": {
+    "address": "22-24 High Street, Chatteris, Cambridgeshire, Fenland, PE166BG",
+    "postcode": "PE166BG",
+    "lat": "52.4559210",
+    "lon": "0.0492650"
+  },
+  "Allied Pharmacy - Waterfront": {
+    "address": "Heol-Y-Llongau, Barry, South Glamorgan, Vale of Glamorgan, CF634AR",
+    "postcode": "CF634AR",
+    "lat": "51.4019830",
+    "lon": "-3.2672610"
+  },
+  "Allied Pharmacy - Abergele": {
+    "address": "34 Market Street, Abergele, Conwy, LL227AA",
+    "postcode": "LL227AA",
+    "lat": "53.2845970",
+    "lon": "-3.5829730"
+  },
+  "Allied Pharmacy - Bloomfield Road": {
+    "address": "93-99 Bloomfield Road, Blackpool, Lancashire, Blackpool, FY16JN",
+    "postcode": "FY16JN",
+    "lat": "53.8040430",
+    "lon": "-3.0428110"
+  },
+  "Allied Pharmacy - Arbury Court": {
+    "address": "46-47 Arbury Court, Alex Wood Road, Cambridge, Cambridgeshire, CB42JQ",
+    "postcode": "CB42JQ",
+    "lat": "52.2245740",
+    "lon": "0.1283340"
+  },
+  "Allied Pharmacy - Riversdale": {
+    "address": "Riversdale House, 10 Merthyrmawr Road North, Bridgend, Mid Glamorgan, CF313NL",
+    "postcode": "CF313NL",
+    "lat": "51.5036740",
+    "lon": "-3.5791980"
+  },
+  "Allied Pharmacy - Kenfig Hill": {
+    "address": "1 Pisgah Street, Kenfig Hill, Bridgend, Glamorgan, Bridgend, CF336BY",
+    "postcode": "CF336BY",
+    "lat": "51.5308660",
+    "lon": "-3.6838690"
+  },
+  "Allied Pharmacy - North Cornelly": {
+    "address": "8 Hall Drive, North Cornelly, Bridgend, CF334HS",
+    "postcode": "CF334HS",
+    "lat": "51.5201900",
+    "lon": "-3.7026890"
+  },
+  "Allied Pharmacy - Thorley": {
+    "address": "The Thorley Centre, Thorley, Bishop's Stortford, Herefordshire, CM234EG",
+    "postcode": "CM234EG",
+    "lat": "51.8586440",
+    "lon": "0.1445790"
+  },
+  "Allied Pharmacy - Cottingham": {
+    "address": "Unit 1, Kings Parade, King Street, Cottingham, HU165QQ",
+    "postcode": "HU165QQ",
+    "lat": "53.7827020",
+    "lon": "-0.4139590"
+  },
+  "Allied Pharmacy - Marsh Street": {
+    "address": "38 Marsh Street, Port Talbot, Neath Port Talbot, SA126UD",
+    "postcode": "SA126UD",
+    "lat": "51.5952340",
+    "lon": "-3.7930170"
+  },
+  "Allied Pharmacy - Port Talbot Resource Centre": {
+    "address": "Moor Road, Baglan Moors, Port Talbot, Neath Port Talbot, SA127BJ",
+    "postcode": "SA127BJ",
+    "lat": "51.6061000",
+    "lon": "-3.8094780"
+  },
+  "Allied Pharmacy - Laceby Road": {
+    "address": "Raj Medical Centre, Laceby Road, Grimsby, DN345LP",
+    "postcode": "DN345LP",
+    "lat": "53.5506550",
+    "lon": "-0.1139680"
+  },
+  "Allied Pharmacy - Bridge Street": {
+    "address": "Taliesin Surgery, Taliesin Court, Bridge Street, Lampeter, Ceredigion, SA487AA",
+    "postcode": "SA487AA",
+    "lat": "52.1118950",
+    "lon": "-4.0771890"
+  },
+  "Allied Pharmacy - Marfleet": {
+    "address": "304 Marfleet Lane, Hull, East Riding of Yorkshire, Kingston upon Hull, City of, HU95AQ",
+    "postcode": "HU95AQ",
+    "lat": "53.7578200",
+    "lon": "-0.2729670"
+  },
+  "Allied Pharmacy - 67 Sway Road": {
+    "address": "67 Sway Road, Morriston, Swansea, SA66JA",
+    "postcode": "SA66JA",
+    "lat": "51.6692210",
+    "lon": "-3.9226780"
+  },
+  "Allied Pharmacy - 50 Sway Road": {
+    "address": "50 Sway Road, Morriston, Swansea, SA66JA",
+    "postcode": "SA66JA",
+    "lat": "51.6692210",
+    "lon": "-3.9226780"
+  },
+  "Allied Pharmacy - Stirling Street": {
+    "address": "1 Stirling Street, Grimsby, DN313AE",
+    "postcode": "DN313AE",
+    "lat": "53.5733060",
+    "lon": "-0.0586630"
+  },
+  "Allied Pharmacy - Cowes": {
+    "address": "Cowes Medical Centre, 200 Newport Road, Cowes, Isle of Wight, PO317ER",
+    "postcode": "PO317ER",
+    "lat": "50.7514390",
+    "lon": "-1.3021050"
+  },
+  "Allied Pharmacy - Bilton": {
+    "address": "Unit 1, 4 Diadem Grove, Bilton, Hull, HU94AL",
+    "postcode": "HU94AL",
+    "lat": "53.7718910",
+    "lon": "-0.2673450"
+  },
+  "Allied Pharmacy - Ryde": {
+    "address": "18 The Esplanade, Ryde, Isle of Wight, PO332DZ",
+    "postcode": "PO332DZ",
+    "lat": "50.7319750",
+    "lon": "-1.1584870"
+  },
+  "Allied Pharmacy - Aberaeron": {
+    "address": "2 Alban Square, Aberaeron, Ceredigion, SA460AD",
+    "postcode": "SA460AD",
+    "lat": "52.2429040",
+    "lon": "-4.2581890"
+  },
+  "Allied Pharmacy - Mill Street": {
+    "address": "14 Mill Street, Driffield, East Riding of Yorkshire, YO256TS",
+    "postcode": "YO256TS",
+    "lat": "54.0050010",
+    "lon": "-0.4425270"
+  },
+  "Aspire Pharmacy": {
+    "address": "23 High Street, Sidcup, Kent, DA146EQ",
+    "postcode": "DA146EQ",
+    "lat": "51.4261790",
+    "lon": "0.1038270"
+  },
+  "Allied Pharmacy - Llandysul": {
+    "address": "New Road, Llandysul, Ceredigion, SA444QJ",
+    "postcode": "SA444QJ",
+    "lat": "52.0402880",
+    "lon": "-4.3092940"
+  },
+  "Allied Pharmacy - Tiverton Market Place": {
+    "address": "12 -14 Market Place, Tiverton, Devon, EX166BL",
+    "postcode": "EX166BL",
+    "lat": "50.9041920",
+    "lon": "-3.4865290"
+  },
+  "Allied Pharmacy - Ormesby": {
+    "address": "9 High Street, Middlesbrough, TS79PD",
+    "postcode": "TS79PD",
+    "lat": "54.5500140",
+    "lon": "-1.1812750"
+  },
+  "Allied Pharmacy - South Woodham Ferrers": {
+    "address": "6 Brickfield Road, South Woodham Ferrers, Essex, Chelmsford, CM35XB",
+    "postcode": "CM35XB",
+    "lat": "51.6443560",
+    "lon": "0.6199020"
+  },
+  "Loftus Pharmacy": {
+    "address": "1 Zetland Place, Loftus, Saltburn, Cleveland, TS134PP",
+    "postcode": "TS134PP",
+    "lat": "54.5543650",
+    "lon": "-0.8899300"
+  },
+  "Allied Pharmacy - Loftus": {
+    "address": "26 High Street, Loftus, Saltburn, Redcar and Cleveland, TS134HA",
+    "postcode": "TS134HA",
+    "lat": "54.5539430",
+    "lon": "-0.8836320"
+  },
+  "Allied Pharmacy - Whitby": {
+    "address": "Rievaulx Road, Whitby, North Yorkshire, YO211SD",
+    "postcode": "YO211SD",
+    "lat": "54.4859190",
+    "lon": "-0.6231700"
+  },
+  "Narberth High Street Pharmacy": {
+    "address": "39 High Street, Narberth, SA677AS",
+    "postcode": "SA677AS",
+    "lat": "51.7988500",
+    "lon": "-4.7441000"
+  },
+  "Allied Pharmacy - Bideford": {
+    "address": "Clarence Wharf, Barnstaple Street, Bideford, Exeter, EX394AU",
+    "postcode": "EX394AU",
+    "lat": "51.0177600",
+    "lon": "-4.2007610"
+  },
+  "Allied Pharmacy - Newton Abbot": {
+    "address": "Unit 2, Former Hospital Site, East Street, Newton Abbot, Devon, Newton Abbot, TQ121GJ",
+    "postcode": "TQ121GJ",
+    "lat": "50.5286610",
+    "lon": "-3.6077860"
+  },
+  "Allied Pharmacy - New Romney": {
+    "address": "63 High Street, New Romney, TN288AL",
+    "postcode": "TN288AL",
+    "lat": "50.9860630",
+    "lon": "0.9412950"
+  },
+  "Allied Pharmacy - Callington": {
+    "address": "17-18 Fore Street, Callington, Cornwall, PL177AE",
+    "postcode": "PL177AE",
+    "lat": "50.5029550",
+    "lon": "-4.3155490"
+  },
+  "Allied Pharmacy - Torpoint": {
+    "address": "Penntorr Health, Trevol Business Centre, Trevol Road, Torpoint, Plymouth, PL112TB",
+    "postcode": "PL112TB",
+    "lat": "50.3757760",
+    "lon": "-4.2249050"
+  },
+  "Allied Pharmacy - Par": {
+    "address": "29 Eastcliffe Road, Par, St Austell, Cornwall, PL242AQ",
+    "postcode": "PL242AQ",
+    "lat": "50.3527510",
+    "lon": "-4.7004940"
+  },
+  "Allied Pharmacy - St Blazey": {
+    "address": "Middleway Street, St Blazey, Par, Cornwall, PL242JL",
+    "postcode": "PL242JL",
+    "lat": "50.3570190",
+    "lon": "-4.7126310"
+  },
+  "Allied Pharmacy - Union Square": {
+    "address": "Union Square, St Columb, Cornwall, TR96AP",
+    "postcode": "TR96AP",
+    "lat": "50.4351090",
+    "lon": "-4.9397040"
+  },
+  "Allied Pharmacy - Truro": {
+    "address": "Truro Health Park, Infirmary Hill, Truro, Cornwall, TR12JA",
+    "postcode": "TR12JA",
+    "lat": "50.2599710",
+    "lon": "-5.0559120"
+  },
+  "Allied Pharmacy - Penzance": {
+    "address": "3 Alverton Street, Penzance, Cornwall, TR182QW",
+    "postcode": "TR182QW",
+    "lat": "50.1184140",
+    "lon": "-5.5388170"
+  },
+  "Allied Pharmacy - Moore Street": {
+    "address": "90 Moore Street, Bootle, Merseyside, L204SF",
+    "lat": "53.4585660",
+    "lon": "-3.0020830"
+  },
+  "Allied Pharmacy - Knott End": {
+    "address": "7 Wyre View, Knott End-on-Sea, Poulton-le-Fylde, FY60AE",
+    "lat": "53.9284310",
+    "lon": "-2.9885370"
+  },
+  "Allied Pharmacy - Wigan Road": {
+    "address": "475 Wigan Road, Leigh, Lancashire, WN75HQ",
+    "lat": "53.509753",
+    "lon": "-2.54032"
+  },
+  "Allied Pharmacy - Ribbleton": {
+    "address": "Ribbleton Medical Centre, 245 Ribbleton Avenue, Preston, PR26RD",
+    "lat": "53.776802",
+    "lon": "-2.661013"
+  },
+  "Allied Pharmacy - Kirkham": {
+    "address": "2a Church Street, Kirkham, Preston, Lancashire, PR42SE",
+    "lat": "53.7834760",
+    "lon": "-2.8712580"
+  },
+  "Allied Pharmacy - Priory Road": {
+    "address": "74-78 Priory Road, Anfield, Liverpool, L42SH",
+    "lat": "53.430985",
+    "lon": "-2.951945"
+  },
+  "Allied Pharmacy - Teanlowe Centre": {
+    "address": "Unit 22, Teanlowe Centre, Poulton-Le-Fylde, Lancashire, FY67DF",
+    "lat": "53.8467840",
+    "lon": "-2.9933820"
+  },
+  "Allied Pharmacy - Huyton": {
+    "address": "5 Tarbock Road, Huyton, Liverpool, Merseyside, L365XN",
+    "lat": "53.4075970",
+    "lon": "-2.8467980"
+  },
+  "Allied Pharmacy - Layton": {
+    "address": "9 Westcliffe Drive, Layton, Blackpool, FY37BJ",
+    "lat": "53.8283280",
+    "lon": "-3.0305600"
+  },
+  "Tuebrook Pharmacy": {
+    "address": "503 West Derby Road, Liverpool, L64BW",
+    "lat": "53.4239620",
+    "lon": "-2.9364230"
+  },
+  "Allied Pharmacy - Rushton's": {
+    "address": "66 Richard Moon Street, Crewe, Cheshire, CW13AX",
+    "lat": "53.0988380",
+    "lon": "-2.4495940"
+  },
+  "Allied Pharmacy - Crosby Road": {
+    "address": "75-79 Crosby Road N, Waterloo, Liverpool, L224QD",
+    "lat": "53.4810780",
+    "lon": "-3.0236930"
+  },
+  "Allied Pharmacy - Fazakerley": {
+    "address": "654 Longmoor Lane, Liverpool, L109LA",
+    "lat": "53.4689710",
+    "lon": "-2.9291730"
+  },
+  "Allied Pharmacy - Common Edge": {
+    "address": "25-27 Common Edge Road, Blackpool, Lancashire, FY45AX",
+    "lat": "53.787714",
+    "lon": "-3.024768"
+  },
+  "Allied Pharmacy Oldham": {
+    "address": "Oldham Integrated Care Centre, New Radcliffe Street, Oldham, OL11NL",
+    "lat": "53.54384",
+    "lon": "-2.116942"
+  },
+  "Allied Pharmacy - Fleetwood Road North": {
+    "address": "108 Fleetwood Road North, Thornton - Cleveleys, FY54AF",
+    "lat": "53.8768250",
+    "lon": "-3.0145530"
+  },
+  "Allied Pharmacy - Thornton": {
+    "address": "13 Victoria Road East, Thornton Cleveleys, Blackpool, Lancashire, FY55HT",
+    "lat": "53.8701010",
+    "lon": "-3.0007480"
+  },
+  "Allied Pharmacy - Dalton": {
+    "address": "75 Market Street, Dalton in Furness, Cumbria, LA158DL",
+    "lat": "54.156464",
+    "lon": "-3.180812"
+  },
+  "Alsager Pharmacy": {
+    "address": "25 Lawton Road, Stoke on Trent, ST72AA",
+    "lat": "53.0967670",
+    "lon": "-2.3026980"
+  },
+  "Allied Pharmacy - Norwood Avenue": {
+    "address": "11a Norwood Avenue, Southport, Merseyside, PR97EG",
+    "lat": "53.6500080",
+    "lon": "-2.9781900"
+  },
+  "Coppice Pharmacy": {
+    "address": "54 Coppice Avenue, Sale, M334WB",
+    "lat": "53.415284",
+    "lon": "-2.348768"
+  },
+  "Knowsley Road Pharmacy": {
+    "address": "133 Knowsley Road, Bootle, L204NJ",
+    "lat": "53.459813",
+    "lon": "-3.001374"
+  },
+  "Allied Pharmacy - Cop Lane": {
+    "address": "The Penwortham Health Centre, Cop Lane, Preston, PR10SR",
+    "lat": "53.7474330",
+    "lon": "-2.7295890"
+  },
+  "Allied Pharmacy - Upton Rocks": {
+    "address": "Fir Park Medical Centre, Lanark Gardens, Widnes, WA89DT",
+    "lat": "53.3815730",
+    "lon": "-2.7460370"
+  },
+  "Allied Pharmacy - Bromborough": {
+    "address": "154 Allport Road, Bromborough, Wirral, CH626BB",
+    "lat": "53.3223570",
+    "lon": "-2.9845040"
+  },
+  "Allied Pharmacy - Sandy Lane": {
+    "address": "Sandy Lane Surgery, Sandy Lane, Leyland, Lancashire, PR252EB",
+    "lat": "53.6905420",
+    "lon": "-2.6941230"
+  },
+  "Allied Pharmacy - Davyhulme Medical Centre": {
+    "address": "Davyhulme Medical Centre, 130 Broadway, Davyhulme, Manchester, M417WJ",
+    "lat": "53.4594830",
+    "lon": "-2.3667820"
+  }
+}

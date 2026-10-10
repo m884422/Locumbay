@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Navigate to Pharmacy</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8fafc;
+            color: #1e293b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 420px;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 28px 24px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+            text-align: center;
+        }
+        .icon-header {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            color: #0f172a;
+        }
+        .address-box {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-size: 14px;
+            color: #475569;
+            margin-bottom: 24px;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+        .subtitle {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #94a3b8;
+            margin-bottom: 16px;
+        }
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 16px 18px;
+            margin-bottom: 14px;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.1s ease, filter 0.15s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .nav-btn:active {
+            transform: scale(0.98);
+        }
+        .btn-apple {
+            background: #000000;
+            color: #ffffff;
+        }
+        .btn-google {
+            background: #4285F4;
+            color: #ffffff;
+        }
+        .btn-waze {
+            background: #33CCFF;
+            color: #002b49;
+        }
+        .btn-icon {
+            font-size: 22px;
+            line-height: 1;
+        }
+        .footer-note {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon-header">🏥</div>
+        <h1 id="pharmacyName">Locum Shift Location</h1>
+        <div class="address-box" id="addressText">Loading address...</div>
+        
+        <div class="subtitle">Choose your navigation app</div>
+        
+        <a id="btnApple" class="nav-btn btn-apple" href="#" target="_blank">
+            <span class="btn-icon">🍎</span> Open in Apple Maps
+        </a>
+        <a id="btnGoogle" class="nav-btn btn-google" href="#" target="_blank">
+            <span class="btn-icon">🗺️</span> Open in Google Maps
+        </a>
+        <a id="btnWaze" class="nav-btn btn-waze" href="#" target="_blank">
+            <span class="btn-icon">🚙</span> Open in Waze
+        </a>
+
+        <div class="footer-note">LocumBay Shift Navigation Assistant</div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const name = params.get('name') || 'Pharmacy';
+        const addr = params.get('addr') || '';
+        const lat = params.get('lat') || '';
+        const lon = params.get('lon') || '';
+
+        document.getElementById('pharmacyName').textContent = name;
+        document.getElementById('addressText').textContent = addr || (lat && lon ? `${lat}, ${lon}` : 'No address provided');
+
+        const encodedQuery = encodeURIComponent(addr ? `${name}, ${addr}` : name);
+        const hasCoords = lat && lon;
+
+        // Apple Maps
+        const appleUrl = hasCoords 
+            ? `https://maps.apple.com/?daddr=${lat},${lon}&q=${encodedQuery}`
+            : `https://maps.apple.com/?q=${encodedQuery}`;
+        document.getElementById('btnApple').href = appleUrl;
+
+        // Google Maps
+        const googleUrl = hasCoords 
+            ? `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`
+            : `https://www.google.com/maps/search/?api=1&query=${encodedQuery}`;
+        document.getElementById('btnGoogle').href = googleUrl;
+
+        // Waze
+        const wazeUrl = hasCoords 
+            ? `https://waze.com/ul?ll=${lat},${lon}&navigate=yes`
+            : `https://waze.com/ul?q=${encodedQuery}&navigate=yes`;
+        document.getElementById('btnWaze').href = wazeUrl;
+    </script>
+</body>
+</html>
