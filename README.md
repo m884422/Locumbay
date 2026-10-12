@@ -28,7 +28,7 @@ Each calendar event includes:
 └─────────────────┘       └──────────────────────┘       └────────────────────────┘       └─────────────────────────┘
 ```
 
-1. **GitHub Actions** wakes up automatically on a schedule (every 30 minutes, or whenever manually triggered).
+1. **GitHub Actions** wakes up automatically on a schedule (every 5 minutes, or whenever manually triggered).
 2. It securely authenticates to your LocumBay account using encrypted **GitHub Secrets**.
 3. It fetches your shift management dashboard, resolves full branch addresses and GPS coordinates, and converts all shifts into the standard RFC 5545 iCalendar (`.ics`) format.
 4. It publishes the updated calendar and the navigation helper to **GitHub Pages**.
@@ -50,7 +50,7 @@ Each calendar event includes:
 Your LocumBay password will **never** be visible in your code or to anyone browsing GitHub.
 1. In your GitHub repository, go to **Settings** > **Secrets and variables** > **Actions**.
 2. Click **New repository secret** and add:
-   - `LOCUMBAY_EMAIL`: Your LocumBay email address (e.g., `mahmoudmuhiyye@gmail.com`)
+   - `LOCUMBAY_EMAIL`: Your LocumBay email address (e.g., `your_email@example.com`)
    - `LOCUMBAY_PASSWORD`: Your updated LocumBay password.
    - `SECRET_FEED_KEY` *(Optional)*: A random string (e.g., `a8b2c4`) if you want the calendar file name to be unguessable (`shifts_a8b2c4.ics`).
 

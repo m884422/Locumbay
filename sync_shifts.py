@@ -51,20 +51,19 @@ def fetch_data(email, password):
     print("[*] Contacting LocumBay...")
     session.get("https://locumbay.com/")
 
-    print(f"[*] Authenticating account: {email}")
+    print("[*] Authenticating with LocumBay...")
     res = session.post(LOGIN_URL, data={"email": email, "password": password})
     try:
         data = res.json()
     except Exception as e:
-        print(f"[!] Error decoding login response: {e}\n{res.text}")
+        print("[!] Error decoding login response.")
         sys.exit(1)
 
     if data.get("status") != "success":
-        print(f"[!] Login failed: {data.get('message', 'Invalid credentials')}")
+        print("[!] Login failed. Please check credentials in Secrets.")
         sys.exit(1)
 
-    user_name = data.get("payload", {}).get("user_name", "Locum")
-    print(f"[+] Successfully authenticated as {user_name}!")
+    print("[+] Successfully authenticated!")
 
     # Load cache
     pharmacy_cache = load_pharmacies_cache()
@@ -133,9 +132,9 @@ def fetch_data(email, password):
 
         save_pharmacies_cache(pharmacy_cache)
 
-    return shifts_data, pharmacy_cache, user_name
+    return shifts_data, pharmacy_cache
 
-def create_ics(shifts, pharmacy_cache, user_name, output_path, base_url=""):
+def create_ics(shifts, pharmacy_cache, output_path, base_url=""):
     now_utc = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
@@ -144,7 +143,7 @@ def create_ics(shifts, pharmacy_cache, user_name, output_path, base_url=""):
         "PRODID:-//LocumBay Shift Sync//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:Locum Shifts ({user_name})",
+        "X-WR-CALNAME:Locum Shifts",
         "X-WR-TIMEZONE:Europe/London",
         "BEGIN:VTIMEZONE",
         "TZID:Europe/London",
@@ -287,8 +286,8 @@ def main():
     filename = f"shifts_{feed_key}.ics" if feed_key else "shifts.ics"
     output_path = os.path.join("public", filename)
 
-    shifts, pharmacy_cache, user_name = fetch_data(email, password)
-    create_ics(shifts, pharmacy_cache, user_name, output_path, base_url=base_url)
+    shifts, pharmacy_cache = fetch_data(email, password)
+    create_ics(shifts, pharmacy_cache, output_path, base_url=base_url)
     print(f"[+] Completed! Feed is ready at public/{filename}")
 
 if __name__ == "__main__":
